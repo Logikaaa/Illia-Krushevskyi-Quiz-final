@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+body {
+    background: fixed;
+    background-image: url(https://img.freepik.com/premium-vector/math-tools-formula-border-notebook-with-checkered-background_1639-53021.jpg?semt=ais_hybrid);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.main {
+    display: none;
+}
+
+
+.question {
+    font-size: 6em;
+    color: white;
+}
+
+
+.ans-row {
+    padding: 1em;
+    box-sizing: border-box;
+    display: flex;
+    color: white;
+}
+
+
+.answer {
+    border-radius: 5px;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    margin: .5em;
+    cursor: pointer;
+    background-color: #2f4f4f;
+}
+
+
+.answer:hover {
+    background: #2f4f4f;
+}
+
+
+.container_h3 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+.start-btn {
+    font-size: 30px;
+    padding: .5em;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.start-btn:hover {
+    background-color: #2f4f4f;
+}
